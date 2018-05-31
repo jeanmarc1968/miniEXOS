@@ -17,14 +17,24 @@
             background: white;
             color: red;
         }
+        a {
+            background: plum;
+        }
         .displaynone {
-            display: none
+            display: none;
+        }
+        .displayinline {
+            display: inline;
+            /* height: 50px;
+            width: 480px; */
         }
         .displayblock {
             display: block;
         }
         .displayinlineblock {
             display: inline-block;
+            height: 500px;
+            width: 500px;
         }
     </style>
 </head>
@@ -50,6 +60,7 @@
         </div>
         <div>
     <h2>5/ display: inline-block;</h2>
+    <!-- Affiche un élément comme un élément de niveau bloc en ligne ; l'element est formaté comme un élément en ligne mais on peut lui donner une valeur de hauteur et de largeur -->
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit praesentium possimus officia accusantium temporibus, enim esse id ullam consectetur unde vero,<p class="displayinlineblock">coucou les ami, un paragraphe</p> impedit eum totam, blanditiis alias quod suscipit deserunt voluptas!<a href="#" class="displayinlineblock">Et à la fin du texte un lien </a>
         </div>
 
